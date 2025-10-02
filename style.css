@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./still-life-rendering-jackets-display.jpg);
+    background-size: cover;
+}
+#nav{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    gap: 18rem;
+    /* background-color: red; */
+}
+#lnav .pro{
+    color: white;
+
+}
+#lnav i{
+    color: white;
+}
+#mnav{
+    display: flex;
+    gap: 3rem;
+}
+#mnav h5{
+    font-weight: 100;
+
+}
+#rnav button{
+    padding: 7px 30px;
+    border-radius: 9px;
+}
+#mtop{
+    margin-top: 13.5vh;
+    position: relative;
+    width: 60%;
+    left: 25%;
+    /* color: white; */
+    
+}
+#mtop #up{
+    width: 35%;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    
+}
+#mtop #down{
+    position: absolute;
+    margin-top: 1.5rem;
+    width: 35%;
+    margin-left: 66%;
+    text-align: center;
+}
+#middle #mleft{
+    margin-left: 3.5rem;
+}
+#middle #mleft h1{
+    font-size: 5rem;
+    line-height: 4.5rem;
+    color: white;
+}
+#middle #mleft h2{
+    font-size: 2rem;
+}

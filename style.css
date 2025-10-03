@@ -43,25 +43,34 @@ html,body{
     border-radius: 9px;
 }
 #mtop{
-    margin-top: 13.5vh;
+    top: 15vh;
     position: relative;
-    width: 60%;
-    left: 25%;
-    
+    width: 38%;
+    left: 34%;
+    /* background-color: antiquewhite; */
 }
 #mtop #up{
-    width: 35%;
+    width: 55%;
     text-align: center;
-    font-weight: 100;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 3rem;
+    /* background-color: aqua; */
+}
+#up>h4{
+    font-weight: 400;
+    color: white;
 }
 #mtop #down{
-    position: absolute;
-    margin-top: 1.5rem;
-    width: 35%;
-    margin-left: 66%;
+    width: 55%;
+    margin-left: 45%;
     text-align: center;
+    /* background-color: blueviolet; */
+}
+#down>h4{
+    font-weight: 400;
+    color: white;
+}
+#middle{
+    margin-top: 2.5rem;
 }
 #middle #mleft{
     margin-left: 3.5rem;
